@@ -1,0 +1,4 @@
+{
+  "version": "v4.1.7",
+  "release_notes": "**版本: v4.1.7**\n\n### 修复\n*   增强了CI中AI响应的JSON处理鲁棒性。 [f7ad8f6]"
+}
