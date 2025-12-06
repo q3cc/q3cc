@@ -1,4 +1,4 @@
 {
   "version": "v4.1.7",
-  "release_notes": "**版本: v4.1.7**\n\n### 修复\n*   增强了CI中AI响应的JSON处理鲁棒性。 [f7ad8f6]"
+  "release_notes": "**版本: v4.1.7**\n\n---\n\n**修复 (Fixes)**\n\n*   [d72fa3f] 优化了 JSON 解析逻辑，引入了正则表达式回退机制，使其更加健壮。"
 }
