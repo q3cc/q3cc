@@ -1,8 +1,13 @@
 {
-  "version": "v4.2.1",
-  "release_notes": "版本: v4.2.1\n\n新功能:\n* 支持 MySQL 数据存储和找回密码功能 [da509a5]",
+  "version": "v4.2.2",
+  "release_notes": "## v4.2.2 发布说明\n\n### 修复\n\n*   修复深色主题下实例控制台操作按钮颜色显示异常问题 [a89318d]",
   "last_updated": "2025-12-09",
   "history": [
+    {
+      "version": "v4.2.2",
+      "release_notes": "## v4.2.2 发布说明\n\n### 修复\n\n*   修复深色主题下实例控制台操作按钮颜色显示异常问题 [a89318d]",
+      "date": "2025-12-09"
+    },
     {
       "version": "v4.2.1",
       "release_notes": "版本: v4.2.1\n\n新功能:\n* 支持 MySQL 数据存储和找回密码功能 [da509a5]",
