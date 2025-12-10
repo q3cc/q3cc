@@ -1,8 +1,13 @@
 {
-  "version": "v4.2.6",
-  "release_notes": "Release notes generation failed.",
+  "version": "v4.2.6.1",
+  "release_notes": "# MCSManager Special Edition v4.2.6.1\n\n## 📋 更新概要\n> 本次更新主要优化了构建流程，包括将WebDAV上传工具替换为rclone以提升效率，并修复了`git diff`命令中存在的参数冲突问题，从而增强了持续集成的稳定性和可靠性。\n\n## 🐛 问题修复\n- **移除git diff中冲突的--stat参数** [c7defb4]\n  - 修复了在执行`git diff`命令时，`--stat`参数可能导致冲突的问题，确保构建流程中版本差异分析的准确性。\n  - 涉及文件 `.github/workflows/auto-build.yml`\n\n## 🔧 优化改进\n- **使用rclone替代curl进行WebDAV上传** [e15c0b9]\n  - 将构建过程中WebDAV文件的上传工具从`curl`替换为更强大、功能更丰富的`rclone`，有望提升上传的效率和稳定性。\n  - 涉及文件 `.github/workflows/auto-build.yml`\n\n## 📁 变更文件统计\n- 其他 1 个文件\n\n---",
   "last_updated": "2025-12-10",
   "history": [
+    {
+      "version": "v4.2.6.1",
+      "release_notes": "# MCSManager Special Edition v4.2.6.1\n\n## 📋 更新概要\n> 本次更新主要优化了构建流程，包括将WebDAV上传工具替换为rclone以提升效率，并修复了`git diff`命令中存在的参数冲突问题，从而增强了持续集成的稳定性和可靠性。\n\n## 🐛 问题修复\n- **移除git diff中冲突的--stat参数** [c7defb4]\n  - 修复了在执行`git diff`命令时，`--stat`参数可能导致冲突的问题，确保构建流程中版本差异分析的准确性。\n  - 涉及文件 `.github/workflows/auto-build.yml`\n\n## 🔧 优化改进\n- **使用rclone替代curl进行WebDAV上传** [e15c0b9]\n  - 将构建过程中WebDAV文件的上传工具从`curl`替换为更强大、功能更丰富的`rclone`，有望提升上传的效率和稳定性。\n  - 涉及文件 `.github/workflows/auto-build.yml`\n\n## 📁 变更文件统计\n- 其他 1 个文件\n\n---",
+      "date": "2025-12-10"
+    },
     {
       "version": "v4.2.6",
       "release_notes": "Release notes generation failed.",
