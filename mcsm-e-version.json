@@ -1,11 +1,11 @@
 {
   "version": "v4.2.5",
-  "release_notes": "Release notes generation failed.",
+  "release_notes": "# MCSManager Special Edition v4.2.5\n\n## 📋 更新概要\n> 本次更新主要优化了发布日志的格式，确保提交哈希能够正确支持链接跳转。\n\n## 🐛 问题修复\n- **优化发布日志中提交哈希的显示格式** [be48661]\n  - 移除了发布日志中提交哈希周围的反引号，以确保其能够正确支持链接跳转。\n\n## 📁 变更文件统计\n- 前端 (frontend/) 0 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
   "last_updated": "2025-12-10",
   "history": [
     {
       "version": "v4.2.5",
-      "release_notes": "Release notes generation failed.",
+      "release_notes": "# MCSManager Special Edition v4.2.5\n\n## 📋 更新概要\n> 本次更新主要优化了发布日志的格式，确保提交哈希能够正确支持链接跳转。\n\n## 🐛 问题修复\n- **优化发布日志中提交哈希的显示格式** [be48661]\n  - 移除了发布日志中提交哈希周围的反引号，以确保其能够正确支持链接跳转。\n\n## 📁 变更文件统计\n- 前端 (frontend/) 0 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
       "date": "2025-12-10"
     },
     {
