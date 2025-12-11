@@ -1,8 +1,13 @@
 {
-  "version": "v4.2.7",
-  "release_notes": "# MCSManager Special Edition v4.2.7\n\n## 📋 更新概要\n> 本次更新主要修复了找回密码功能的问题，并优化了自动安装脚本，使其能够动态获取最新版本和使用新的下载链接。\n\n## 🐛 问题修复\n- **找回密码功能用户查找和响应处理** [2c77a31]\n  - 修复了在找回密码过程中，用户查找逻辑的潜在问题以及响应处理的健壮性，提升了该功能的稳定性和用户体验。\n  - 涉及文件 `frontend/src/widgets/ForgotPassword.vue`, `panel/src/app/routers/login_router.ts`\n\n## 🔧 优化改进\n- **更新自动安装脚本下载链接和动态版本获取** [c967bd4]\n  - 优化了自动安装脚本，更新了内部使用的下载链接，并改进为能够动态获取MCSManager的最新版本，确保安装过程始终使用最新、最稳定的发行版。\n  - 涉及文件 `auto_install.sh`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 后端面板 (panel/) 1 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 1 个文件",
+  "version": "v4.3.0",
+  "release_notes": "# MCSManager Special Edition v4.3.0\n\n## 📋 更新概要\n> 本次更新主要侧重于安全性与隐私保护，通过禁用前端构建的 Sourcemap 并移除自动安装脚本中的下载签名，以防止潜在的源代码泄露风险。\n\n## 🔧 优化改进\n- **禁用Sourcemap并移除下载签名** [cba8731]\n  - 优化了前端构建配置，禁用 Sourcemap 文件生成，有效防止前端源代码泄露。同时，移除了自动安装脚本中的下载签名逻辑，进一步增强了系统的安全性。\n  - 涉及文件 `auto_install.sh`, `frontend/vite.config.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 其他 1 个文件",
   "last_updated": "2025-12-11",
   "history": [
+    {
+      "version": "v4.3.0",
+      "release_notes": "# MCSManager Special Edition v4.3.0\n\n## 📋 更新概要\n> 本次更新主要侧重于安全性与隐私保护，通过禁用前端构建的 Sourcemap 并移除自动安装脚本中的下载签名，以防止潜在的源代码泄露风险。\n\n## 🔧 优化改进\n- **禁用Sourcemap并移除下载签名** [cba8731]\n  - 优化了前端构建配置，禁用 Sourcemap 文件生成，有效防止前端源代码泄露。同时，移除了自动安装脚本中的下载签名逻辑，进一步增强了系统的安全性。\n  - 涉及文件 `auto_install.sh`, `frontend/vite.config.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 其他 1 个文件",
+      "date": "2025-12-11"
+    },
     {
       "version": "v4.2.7",
       "release_notes": "# MCSManager Special Edition v4.2.7\n\n## 📋 更新概要\n> 本次更新主要修复了找回密码功能的问题，并优化了自动安装脚本，使其能够动态获取最新版本和使用新的下载链接。\n\n## 🐛 问题修复\n- **找回密码功能用户查找和响应处理** [2c77a31]\n  - 修复了在找回密码过程中，用户查找逻辑的潜在问题以及响应处理的健壮性，提升了该功能的稳定性和用户体验。\n  - 涉及文件 `frontend/src/widgets/ForgotPassword.vue`, `panel/src/app/routers/login_router.ts`\n\n## 🔧 优化改进\n- **更新自动安装脚本下载链接和动态版本获取** [c967bd4]\n  - 优化了自动安装脚本，更新了内部使用的下载链接，并改进为能够动态获取MCSManager的最新版本，确保安装过程始终使用最新、最稳定的发行版。\n  - 涉及文件 `auto_install.sh`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 后端面板 (panel/) 1 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 1 个文件",
