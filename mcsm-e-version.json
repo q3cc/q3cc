@@ -1,8 +1,13 @@
 {
-  "version": "v4.3.0.1",
-  "release_notes": "# MCSManager Special Edition v4.3.0.1\n\n## 📋 更新概要\n> 本次更新引入了水印防屏蔽保护机制，同时修复了该机制在某些情况下可能误判导致用户页面刷新的问题。\n\n## ✨ 新功能\n- **水印防屏蔽保护** [e4a363a]\n  - 为防止水印被恶意屏蔽，新增了防屏蔽保护机制，提升了水印的可见性和安全性。\n  - 涉及文件 `frontend/src/components/Watermark.vue`\n\n## 🐛 问题修复\n- **修复水印防屏蔽检测误判** [8c709d4]\n  - 修复了水印防屏蔽检测逻辑可能出现误判的问题，避免了正常用户因误判而导致页面被意外刷新的情况。\n  - 涉及文件 `frontend/src/components/Watermark.vue`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
+  "version": "v4.3.1",
+  "release_notes": "# MCSManager Special Edition v4.3.1\n\n## 📋 更新概要\n> 本次更新主要优化了水印检测逻辑，进一步提升了准确性，防止在特定情况下出现误判。\n\n## 🐛 问题修复\n- **优化水印检测逻辑防止误判** [e965dd0]\n  - 修复了可能导致水印检测出现误判的问题，通过优化内部逻辑，提升了水印识别的准确性和稳定性。\n  - 涉及文件 `frontend/src/components/Watermark.vue`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
   "last_updated": "2025-12-12",
   "history": [
+    {
+      "version": "v4.3.1",
+      "release_notes": "# MCSManager Special Edition v4.3.1\n\n## 📋 更新概要\n> 本次更新主要优化了水印检测逻辑，进一步提升了准确性，防止在特定情况下出现误判。\n\n## 🐛 问题修复\n- **优化水印检测逻辑防止误判** [e965dd0]\n  - 修复了可能导致水印检测出现误判的问题，通过优化内部逻辑，提升了水印识别的准确性和稳定性。\n  - 涉及文件 `frontend/src/components/Watermark.vue`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
+      "date": "2025-12-12"
+    },
     {
       "version": "v4.3.0.1",
       "release_notes": "# MCSManager Special Edition v4.3.0.1\n\n## 📋 更新概要\n> 本次更新引入了水印防屏蔽保护机制，同时修复了该机制在某些情况下可能误判导致用户页面刷新的问题。\n\n## ✨ 新功能\n- **水印防屏蔽保护** [e4a363a]\n  - 为防止水印被恶意屏蔽，新增了防屏蔽保护机制，提升了水印的可见性和安全性。\n  - 涉及文件 `frontend/src/components/Watermark.vue`\n\n## 🐛 问题修复\n- **修复水印防屏蔽检测误判** [8c709d4]\n  - 修复了水印防屏蔽检测逻辑可能出现误判的问题，避免了正常用户因误判而导致页面被意外刷新的情况。\n  - 涉及文件 `frontend/src/components/Watermark.vue`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
