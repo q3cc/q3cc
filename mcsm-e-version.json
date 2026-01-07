@@ -1,8 +1,13 @@
 {
-  "version": "v4.3.3",
-  "release_notes": "# MCSManager Special Edition v4.3.3\n\n## 📋 更新概要\n> 本次更新主要优化了守护进程的智能重启延时算法，旨在提升实例在特定情况下的重启效率和响应速度。\n\n## 🔧 优化改进\n- **调整智能重启延时算法** [710c3df]\n  - 优化了守护进程中实例的智能重启延时算法，减少了不必要的等待时间，使得实例在需要重启时能够更及时地恢复服务，提升了服务的可用性。\n  - 涉及文件 `daemon/src/entity/instance/instance.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 0 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 1 个文件\n- 其他 0 个文件",
+  "version": "v4.3.4",
+  "release_notes": "# MCSManager Special Edition v4.3.4\n\n## 📋 更新概要\n> 本次更新主要引入了全新的 NeOmega 配置管理功能，允许用户通过面板便捷地管理与 NeOmega 相关的配置文件。\n\n## ✨ 新功能\n- **新增 NeOmega 配置管理功能** [7ce3c96]\n  - 现在用户可以直接在 MCSManager 面板中管理 NeOmega 的配置文件，包括创建、编辑和删除等操作。此功能极大地提升了 NeOmega 服务器配置的灵活性和管理效率。\n  - 涉及文件 `daemon/src/service/system_file.ts`, `frontend/src/config/index.ts`, `frontend/src/config/neomegaConfigMap.ts`, `frontend/src/config/router.ts`, `frontend/src/hooks/useNeOmegaConfig.ts`, `frontend/src/widgets/instance/FileManager.vue`, `frontend/src/widgets/instance/NeOmegaConfigManager.vue`, `frontend/src/widgets/instance/ServerConfigOverview.vue`, `panel/src/app/service/frontend_layout.ts`, `vite.config.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 7 个文件\n- 后端面板 (panel/) 1 个文件\n- 守护进程 (daemon/) 1 个文件\n- 其他 1 个文件\n\n---",
   "last_updated": "2026-01-07",
   "history": [
+    {
+      "version": "v4.3.4",
+      "release_notes": "# MCSManager Special Edition v4.3.4\n\n## 📋 更新概要\n> 本次更新主要引入了全新的 NeOmega 配置管理功能，允许用户通过面板便捷地管理与 NeOmega 相关的配置文件。\n\n## ✨ 新功能\n- **新增 NeOmega 配置管理功能** [7ce3c96]\n  - 现在用户可以直接在 MCSManager 面板中管理 NeOmega 的配置文件，包括创建、编辑和删除等操作。此功能极大地提升了 NeOmega 服务器配置的灵活性和管理效率。\n  - 涉及文件 `daemon/src/service/system_file.ts`, `frontend/src/config/index.ts`, `frontend/src/config/neomegaConfigMap.ts`, `frontend/src/config/router.ts`, `frontend/src/hooks/useNeOmegaConfig.ts`, `frontend/src/widgets/instance/FileManager.vue`, `frontend/src/widgets/instance/NeOmegaConfigManager.vue`, `frontend/src/widgets/instance/ServerConfigOverview.vue`, `panel/src/app/service/frontend_layout.ts`, `vite.config.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 7 个文件\n- 后端面板 (panel/) 1 个文件\n- 守护进程 (daemon/) 1 个文件\n- 其他 1 个文件\n\n---",
+      "date": "2026-01-07"
+    },
     {
       "version": "v4.3.3",
       "release_notes": "# MCSManager Special Edition v4.3.3\n\n## 📋 更新概要\n> 本次更新主要优化了守护进程的智能重启延时算法，旨在提升实例在特定情况下的重启效率和响应速度。\n\n## 🔧 优化改进\n- **调整智能重启延时算法** [710c3df]\n  - 优化了守护进程中实例的智能重启延时算法，减少了不必要的等待时间，使得实例在需要重启时能够更及时地恢复服务，提升了服务的可用性。\n  - 涉及文件 `daemon/src/entity/instance/instance.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 0 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 1 个文件\n- 其他 0 个文件",
