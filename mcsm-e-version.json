@@ -1,8 +1,13 @@
 {
-  "version": "v4.5.2",
-  "release_notes": "# MCSManager Special Edition v4.5.2\n\n## 📋 更新概要\n> 本次更新主要聚焦于通知系统的优化，提升了通知管理器和通知弹窗的用户交互体验。\n\n## 🔧 优化改进\n- **增强通知管理器功能和通知弹窗交互** [801707e]\n  - 优化了通知管理器的内部逻辑和性能，并改进了通知弹窗的显示与交互效果，提供更流畅的通知体验。\n  - 涉及文件 `frontend/src/App.vue`, `frontend/src/components/NotificationDialog.vue`, `frontend/src/widgets/NotificationManager.vue`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 3 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
-  "last_updated": "2026-02-19",
+  "version": "v4.5.3",
+  "release_notes": "# MCSManager Special Edition v4.5.3\n\n## 📋 更新概要\n> 本次更新主要侧重于前端性能优化，改进了页面加载提示与请求响应速度，提升用户体验。\n\n## 🔧 优化改进\n- **改进前端加载提示和请求响应速度** [6d9804b]\n  - 优化了前端页面的加载提示机制，使其更加及时和准确，同时提升了整体请求的响应效率，为用户带来更流畅的操作体验。\n\n## 📁 变更文件统计\n- 前端 (frontend/) 4 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
+  "last_updated": "2026-02-20",
   "history": [
+    {
+      "version": "v4.5.3",
+      "release_notes": "# MCSManager Special Edition v4.5.3\n\n## 📋 更新概要\n> 本次更新主要侧重于前端性能优化，改进了页面加载提示与请求响应速度，提升用户体验。\n\n## 🔧 优化改进\n- **改进前端加载提示和请求响应速度** [6d9804b]\n  - 优化了前端页面的加载提示机制，使其更加及时和准确，同时提升了整体请求的响应效率，为用户带来更流畅的操作体验。\n\n## 📁 变更文件统计\n- 前端 (frontend/) 4 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
+      "date": "2026-02-20"
+    },
     {
       "version": "v4.5.2",
       "release_notes": "# MCSManager Special Edition v4.5.2\n\n## 📋 更新概要\n> 本次更新主要聚焦于通知系统的优化，提升了通知管理器和通知弹窗的用户交互体验。\n\n## 🔧 优化改进\n- **增强通知管理器功能和通知弹窗交互** [801707e]\n  - 优化了通知管理器的内部逻辑和性能，并改进了通知弹窗的显示与交互效果，提供更流畅的通知体验。\n  - 涉及文件 `frontend/src/App.vue`, `frontend/src/components/NotificationDialog.vue`, `frontend/src/widgets/NotificationManager.vue`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 3 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
