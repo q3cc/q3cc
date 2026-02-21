@@ -1,8 +1,13 @@
 {
-  "version": "v4.5.3",
-  "release_notes": "# MCSManager Special Edition v4.5.3\n\n## 📋 更新概要\n本次更新主要修复了远程节点连接错误时图片无法显示的问题，并对前端加载提示和请求响应速度进行了优化，提升了用户体验。\n\n## 🐛 问题修复\n- **解决远程节点连接错误图片无法显示的问题** [6197f14]\n  - 修复了当远程节点连接出现错误时，相关提示图片无法正常显示的问题，确保用户能更清晰地获取错误信息。\n  - 涉及文件 `frontend/src/App.vue`, `frontend/src/services/apiService.ts`\n\n## 🔧 优化改进\n- **改进前端加载提示和请求响应速度** [6d9804b]\n  - 优化了前端页面的加载提示机制，使其更加平滑和及时。同时，对数据请求和响应流程进行了改进，有效提升了前端页面的操作流畅度和响应速度。\n  - 涉及文件 `frontend/index.html`, `frontend/src/App.vue`, `frontend/src/main.ts`, `frontend/src/services/apiService.ts`, `frontend/vite.config.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 5 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
+  "version": "v4.5.4",
+  "release_notes": "# MCSManager Special Edition v4.5.4\n\n## 📋 更新概要\n> 本次更新主要修复了一个关键问题，解决了全局禁止下载文件配置在Docker镜像环境下不生效的问题。\n\n## 🐛 问题修复\n- **解决全局禁止下载文件配置对Docker镜像不生效的问题** [49710dd]\n  - 修复了当用户在全局设置中禁止下载文件时，此配置对Docker镜像中的文件不生效的缺陷。现在，禁止下载的配置将正确应用于Docker容器内部的文件，确保系统安全性。\n  - 涉及文件 `daemon/src/service/file_router_service.ts`, `daemon/src/service/system_file.ts`\n\n## 📁 变更文件统计\n- 守护进程 (daemon/) 2 个文件\n\n---",
   "last_updated": "2026-02-21",
   "history": [
+    {
+      "version": "v4.5.4",
+      "release_notes": "# MCSManager Special Edition v4.5.4\n\n## 📋 更新概要\n> 本次更新主要修复了一个关键问题，解决了全局禁止下载文件配置在Docker镜像环境下不生效的问题。\n\n## 🐛 问题修复\n- **解决全局禁止下载文件配置对Docker镜像不生效的问题** [49710dd]\n  - 修复了当用户在全局设置中禁止下载文件时，此配置对Docker镜像中的文件不生效的缺陷。现在，禁止下载的配置将正确应用于Docker容器内部的文件，确保系统安全性。\n  - 涉及文件 `daemon/src/service/file_router_service.ts`, `daemon/src/service/system_file.ts`\n\n## 📁 变更文件统计\n- 守护进程 (daemon/) 2 个文件\n\n---",
+      "date": "2026-02-21"
+    },
     {
       "version": "v4.5.3",
       "release_notes": "# MCSManager Special Edition v4.5.3\n\n## 📋 更新概要\n本次更新主要修复了远程节点连接错误时图片无法显示的问题，并对前端加载提示和请求响应速度进行了优化，提升了用户体验。\n\n## 🐛 问题修复\n- **解决远程节点连接错误图片无法显示的问题** [6197f14]\n  - 修复了当远程节点连接出现错误时，相关提示图片无法正常显示的问题，确保用户能更清晰地获取错误信息。\n  - 涉及文件 `frontend/src/App.vue`, `frontend/src/services/apiService.ts`\n\n## 🔧 优化改进\n- **改进前端加载提示和请求响应速度** [6d9804b]\n  - 优化了前端页面的加载提示机制，使其更加平滑和及时。同时，对数据请求和响应流程进行了改进，有效提升了前端页面的操作流畅度和响应速度。\n  - 涉及文件 `frontend/index.html`, `frontend/src/App.vue`, `frontend/src/main.ts`, `frontend/src/services/apiService.ts`, `frontend/vite.config.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 5 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
