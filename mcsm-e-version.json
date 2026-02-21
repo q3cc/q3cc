@@ -1,12 +1,12 @@
 {
   "version": "v4.5.3",
-  "release_notes": "# MCSManager Special Edition v4.5.3\n\n## 📋 更新概要\n> 本次更新主要侧重于前端性能优化，改进了页面加载提示与请求响应速度，提升用户体验。\n\n## 🔧 优化改进\n- **改进前端加载提示和请求响应速度** [6d9804b]\n  - 优化了前端页面的加载提示机制，使其更加及时和准确，同时提升了整体请求的响应效率，为用户带来更流畅的操作体验。\n\n## 📁 变更文件统计\n- 前端 (frontend/) 4 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
-  "last_updated": "2026-02-20",
+  "release_notes": "# MCSManager Special Edition v4.5.3\n\n## 📋 更新概要\n本次更新主要修复了远程节点连接错误时图片无法显示的问题，并对前端加载提示和请求响应速度进行了优化，提升了用户体验。\n\n## 🐛 问题修复\n- **解决远程节点连接错误图片无法显示的问题** [6197f14]\n  - 修复了当远程节点连接出现错误时，相关提示图片无法正常显示的问题，确保用户能更清晰地获取错误信息。\n  - 涉及文件 `frontend/src/App.vue`, `frontend/src/services/apiService.ts`\n\n## 🔧 优化改进\n- **改进前端加载提示和请求响应速度** [6d9804b]\n  - 优化了前端页面的加载提示机制，使其更加平滑和及时。同时，对数据请求和响应流程进行了改进，有效提升了前端页面的操作流畅度和响应速度。\n  - 涉及文件 `frontend/index.html`, `frontend/src/App.vue`, `frontend/src/main.ts`, `frontend/src/services/apiService.ts`, `frontend/vite.config.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 5 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
+  "last_updated": "2026-02-21",
   "history": [
     {
       "version": "v4.5.3",
-      "release_notes": "# MCSManager Special Edition v4.5.3\n\n## 📋 更新概要\n> 本次更新主要侧重于前端性能优化，改进了页面加载提示与请求响应速度，提升用户体验。\n\n## 🔧 优化改进\n- **改进前端加载提示和请求响应速度** [6d9804b]\n  - 优化了前端页面的加载提示机制，使其更加及时和准确，同时提升了整体请求的响应效率，为用户带来更流畅的操作体验。\n\n## 📁 变更文件统计\n- 前端 (frontend/) 4 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
-      "date": "2026-02-20"
+      "release_notes": "# MCSManager Special Edition v4.5.3\n\n## 📋 更新概要\n本次更新主要修复了远程节点连接错误时图片无法显示的问题，并对前端加载提示和请求响应速度进行了优化，提升了用户体验。\n\n## 🐛 问题修复\n- **解决远程节点连接错误图片无法显示的问题** [6197f14]\n  - 修复了当远程节点连接出现错误时，相关提示图片无法正常显示的问题，确保用户能更清晰地获取错误信息。\n  - 涉及文件 `frontend/src/App.vue`, `frontend/src/services/apiService.ts`\n\n## 🔧 优化改进\n- **改进前端加载提示和请求响应速度** [6d9804b]\n  - 优化了前端页面的加载提示机制，使其更加平滑和及时。同时，对数据请求和响应流程进行了改进，有效提升了前端页面的操作流畅度和响应速度。\n  - 涉及文件 `frontend/index.html`, `frontend/src/App.vue`, `frontend/src/main.ts`, `frontend/src/services/apiService.ts`, `frontend/vite.config.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 5 个文件\n- 后端面板 (panel/) 0 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
+      "date": "2026-02-21"
     },
     {
       "version": "v4.5.2",
