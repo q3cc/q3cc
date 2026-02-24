@@ -1,8 +1,13 @@
 {
-  "version": "v4.5.7",
-  "release_notes": "# MCSManager Special Edition v4.5.7\n\n## 📋 更新概要\n> 本次更新主要优化了实例维护模式的内部逻辑，并改进了管理面板中相关界面的用户体验。\n\n## 🐛 问题修复\n- **优化实例维护模式逻辑和管理界面** [371da1b]\n  - 改进了实例维护模式的内部处理逻辑，使其运行更加稳定和高效。同时，对管理面板中实例维护功能的显示和交互进行了优化，提升了用户操作的便利性。\n  - 涉及文件 `daemon/src/entity/instance/instance.ts`, `frontend/src/widgets/InstanceMaintenanceManager.vue`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 守护进程 (daemon/) 1 个文件\n\n---",
-  "last_updated": "2026-02-22",
+  "version": "v4.5.8",
+  "release_notes": "# MCSManager Special Edition v4.5.8\n\n## 📋 更新概要\n> 本次更新主要增强了公告管理功能，提供了更完善的通知历史和管理界面，并对实例维护管理器进行了优化，提升了用户体验。\n\n## ✨ 新功能\n- **公告管理增强与实例维护管理器优化** [75d8998]\n  - 增强了公告发布与管理功能，用户现在可以更方便地查看通知历史、管理公告内容。同时，对实例维护管理器进行了优化，使其操作更加流畅和直观。\n  - 涉及文件 `frontend/src/components/NotificationDialog.vue`, `frontend/src/widgets/InstanceMaintenanceManager.vue`, `frontend/src/widgets/NotificationHistoryPage.vue`, `frontend/src/widgets/NotificationManager.vue`, `frontend/src/widgets/PackageManager.vue`, `frontend/src/widgets/Settings.vue`, `panel/src/app/routers/redemption_code_router.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 6 个文件\n- 后端面板 (panel/) 1 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 1 个文件\n\n---",
+  "last_updated": "2026-02-24",
   "history": [
+    {
+      "version": "v4.5.8",
+      "release_notes": "# MCSManager Special Edition v4.5.8\n\n## 📋 更新概要\n> 本次更新主要增强了公告管理功能，提供了更完善的通知历史和管理界面，并对实例维护管理器进行了优化，提升了用户体验。\n\n## ✨ 新功能\n- **公告管理增强与实例维护管理器优化** [75d8998]\n  - 增强了公告发布与管理功能，用户现在可以更方便地查看通知历史、管理公告内容。同时，对实例维护管理器进行了优化，使其操作更加流畅和直观。\n  - 涉及文件 `frontend/src/components/NotificationDialog.vue`, `frontend/src/widgets/InstanceMaintenanceManager.vue`, `frontend/src/widgets/NotificationHistoryPage.vue`, `frontend/src/widgets/NotificationManager.vue`, `frontend/src/widgets/PackageManager.vue`, `frontend/src/widgets/Settings.vue`, `panel/src/app/routers/redemption_code_router.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 6 个文件\n- 后端面板 (panel/) 1 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 1 个文件\n\n---",
+      "date": "2026-02-24"
+    },
     {
       "version": "v4.5.7",
       "release_notes": "# MCSManager Special Edition v4.5.7\n\n## 📋 更新概要\n> 本次更新主要优化了实例维护模式的内部逻辑，并改进了管理面板中相关界面的用户体验。\n\n## 🐛 问题修复\n- **优化实例维护模式逻辑和管理界面** [371da1b]\n  - 改进了实例维护模式的内部处理逻辑，使其运行更加稳定和高效。同时，对管理面板中实例维护功能的显示和交互进行了优化，提升了用户操作的便利性。\n  - 涉及文件 `daemon/src/entity/instance/instance.ts`, `frontend/src/widgets/InstanceMaintenanceManager.vue`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 守护进程 (daemon/) 1 个文件\n\n---",
