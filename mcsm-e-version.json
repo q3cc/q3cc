@@ -1,11 +1,11 @@
 {
   "version": "v4.5.11",
-  "release_notes": "# MCSManager Special Edition v4.5.11\n\n## 📋 更新概要\n> 本次更新主要对套餐系统的CPU限制配置和实例命名格式进行了优化，更新了项目文档，并清理了不再使用的GitHub工作流文件。\n\n## 🔧 优化改进\n- **套餐系统配置与命名格式优化** [bdf792d]\n  - 优化了套餐系统中的CPU限制配置逻辑，并改进了实例的命名格式，提升了系统的灵活性和用户体验。\n  - 涉及文件 `frontend/src/widgets/PackageManager.vue`\n- **更新项目文档** [46c2a99]\n  - 更新了 `CLAUDE.md` 文件，增加了代码组织规范指南，有助于提升项目代码质量和维护性。\n  - 涉及文件 `CLAUDE.md`\n- **移除不必要的工作流** [328fcfd]\n  - 删除了 `.github/workflows/bulid.yml` 文件，精简了项目工作流配置。\n  - 涉及文件 `.github/workflows/bulid.yml`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 后端面板 (panel/) 1 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 2 个文件",
+  "release_notes": "# MCSManager Special Edition v4.5.11\n\n## 📋 更新概要\n本次更新主要修复了前端 PackageManager 的类型定义问题，确保了数据处理的准确性；同时优化了后端套餐系统的 CPU 限制配置逻辑和实例命名格式，提升了系统的稳定性和管理便捷性。\n\n## 🐛 问题修复\n- **修复 PackageManager 类型定义** da8be37\n  - 补充了前端 `PackageManager` 类型定义中缺失的 `cpusetCpus` 字段，解决了因类型定义不完整可能导致的数据处理问题，增强了前端界面的稳定性。\n  - 涉及文件 `frontend/src/widgets/PackageManager.vue`\n\n## 🔧 优化改进\n- **优化套餐系统 CPU 限制配置和实例命名** bdf792d\n  - 改进了后端套餐系统中 CPU 限制的配置逻辑，使资源管理更加精确和灵活。同时，优化了实例的命名格式，提高了可读性和后台管理效率。\n  - 涉及文件 `panel/src/app/routers/redemption_code_router.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 后端面板 (panel/) 1 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
   "last_updated": "2026-03-09",
   "history": [
     {
       "version": "v4.5.11",
-      "release_notes": "# MCSManager Special Edition v4.5.11\n\n## 📋 更新概要\n> 本次更新主要对套餐系统的CPU限制配置和实例命名格式进行了优化，更新了项目文档，并清理了不再使用的GitHub工作流文件。\n\n## 🔧 优化改进\n- **套餐系统配置与命名格式优化** [bdf792d]\n  - 优化了套餐系统中的CPU限制配置逻辑，并改进了实例的命名格式，提升了系统的灵活性和用户体验。\n  - 涉及文件 `frontend/src/widgets/PackageManager.vue`\n- **更新项目文档** [46c2a99]\n  - 更新了 `CLAUDE.md` 文件，增加了代码组织规范指南，有助于提升项目代码质量和维护性。\n  - 涉及文件 `CLAUDE.md`\n- **移除不必要的工作流** [328fcfd]\n  - 删除了 `.github/workflows/bulid.yml` 文件，精简了项目工作流配置。\n  - 涉及文件 `.github/workflows/bulid.yml`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 后端面板 (panel/) 1 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 2 个文件",
+      "release_notes": "# MCSManager Special Edition v4.5.11\n\n## 📋 更新概要\n本次更新主要修复了前端 PackageManager 的类型定义问题，确保了数据处理的准确性；同时优化了后端套餐系统的 CPU 限制配置逻辑和实例命名格式，提升了系统的稳定性和管理便捷性。\n\n## 🐛 问题修复\n- **修复 PackageManager 类型定义** da8be37\n  - 补充了前端 `PackageManager` 类型定义中缺失的 `cpusetCpus` 字段，解决了因类型定义不完整可能导致的数据处理问题，增强了前端界面的稳定性。\n  - 涉及文件 `frontend/src/widgets/PackageManager.vue`\n\n## 🔧 优化改进\n- **优化套餐系统 CPU 限制配置和实例命名** bdf792d\n  - 改进了后端套餐系统中 CPU 限制的配置逻辑，使资源管理更加精确和灵活。同时，优化了实例的命名格式，提高了可读性和后台管理效率。\n  - 涉及文件 `panel/src/app/routers/redemption_code_router.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 后端面板 (panel/) 1 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
       "date": "2026-03-09"
     },
     {
