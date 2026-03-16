@@ -1,8 +1,13 @@
 {
-  "version": "v4.5.11",
-  "release_notes": "# MCSManager Special Edition v4.5.11\n\n## 📋 更新概要\n本次更新主要修复了前端 PackageManager 的类型定义问题，确保了数据处理的准确性；同时优化了后端套餐系统的 CPU 限制配置逻辑和实例命名格式，提升了系统的稳定性和管理便捷性。\n\n## 🐛 问题修复\n- **修复 PackageManager 类型定义** da8be37\n  - 补充了前端 `PackageManager` 类型定义中缺失的 `cpusetCpus` 字段，解决了因类型定义不完整可能导致的数据处理问题，增强了前端界面的稳定性。\n  - 涉及文件 `frontend/src/widgets/PackageManager.vue`\n\n## 🔧 优化改进\n- **优化套餐系统 CPU 限制配置和实例命名** bdf792d\n  - 改进了后端套餐系统中 CPU 限制的配置逻辑，使资源管理更加精确和灵活。同时，优化了实例的命名格式，提高了可读性和后台管理效率。\n  - 涉及文件 `panel/src/app/routers/redemption_code_router.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 后端面板 (panel/) 1 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
-  "last_updated": "2026-03-09",
+  "version": "v4.5.12",
+  "release_notes": "# MCSManager Special Edition v4.5.12\n\n## 📋 更新概要\n> 本次更新主要修复了实例续费时的验证逻辑问题，并解决了文件上传在暂停或终止时可能出现的异常情况。\n\n## 🐛 问题修复\n- **修复续费实例验证与文件上传异常** [ea0ed88]\n  - 修复了在实例续费过程中，可能出现的验证逻辑不完善问题，确保续费流程的正确性。同时，解决了文件上传在被暂停或终止时，可能导致程序异常退出的问题，提升了文件管理功能的稳定性。\n  - 涉及文件 `frontend/src/components/fc/RenewalDialog.vue`, `frontend/src/services/uploadService.ts`, `panel/src/app/routers/redemption_code_router.ts`, `languages/zh_CN.json`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 2 个文件\n- 后端面板 (panel/) 1 个文件\n- 其他 1 个文件\n\n---",
+  "last_updated": "2026-03-16",
   "history": [
+    {
+      "version": "v4.5.12",
+      "release_notes": "# MCSManager Special Edition v4.5.12\n\n## 📋 更新概要\n> 本次更新主要修复了实例续费时的验证逻辑问题，并解决了文件上传在暂停或终止时可能出现的异常情况。\n\n## 🐛 问题修复\n- **修复续费实例验证与文件上传异常** [ea0ed88]\n  - 修复了在实例续费过程中，可能出现的验证逻辑不完善问题，确保续费流程的正确性。同时，解决了文件上传在被暂停或终止时，可能导致程序异常退出的问题，提升了文件管理功能的稳定性。\n  - 涉及文件 `frontend/src/components/fc/RenewalDialog.vue`, `frontend/src/services/uploadService.ts`, `panel/src/app/routers/redemption_code_router.ts`, `languages/zh_CN.json`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 2 个文件\n- 后端面板 (panel/) 1 个文件\n- 其他 1 个文件\n\n---",
+      "date": "2026-03-16"
+    },
     {
       "version": "v4.5.11",
       "release_notes": "# MCSManager Special Edition v4.5.11\n\n## 📋 更新概要\n本次更新主要修复了前端 PackageManager 的类型定义问题，确保了数据处理的准确性；同时优化了后端套餐系统的 CPU 限制配置逻辑和实例命名格式，提升了系统的稳定性和管理便捷性。\n\n## 🐛 问题修复\n- **修复 PackageManager 类型定义** da8be37\n  - 补充了前端 `PackageManager` 类型定义中缺失的 `cpusetCpus` 字段，解决了因类型定义不完整可能导致的数据处理问题，增强了前端界面的稳定性。\n  - 涉及文件 `frontend/src/widgets/PackageManager.vue`\n\n## 🔧 优化改进\n- **优化套餐系统 CPU 限制配置和实例命名** bdf792d\n  - 改进了后端套餐系统中 CPU 限制的配置逻辑，使资源管理更加精确和灵活。同时，优化了实例的命名格式，提高了可读性和后台管理效率。\n  - 涉及文件 `panel/src/app/routers/redemption_code_router.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 1 个文件\n- 后端面板 (panel/) 1 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
