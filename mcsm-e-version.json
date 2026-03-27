@@ -1,8 +1,13 @@
 {
-  "version": "v4.5.12",
-  "release_notes": "# MCSManager Special Edition v4.5.12\n\n## 📋 更新概要\n> 本次更新主要修复了实例续费时的验证逻辑问题，并解决了文件上传在暂停或终止时可能出现的异常情况。\n\n## 🐛 问题修复\n- **修复续费实例验证与文件上传异常** [ea0ed88]\n  - 修复了在实例续费过程中，可能出现的验证逻辑不完善问题，确保续费流程的正确性。同时，解决了文件上传在被暂停或终止时，可能导致程序异常退出的问题，提升了文件管理功能的稳定性。\n  - 涉及文件 `frontend/src/components/fc/RenewalDialog.vue`, `frontend/src/services/uploadService.ts`, `panel/src/app/routers/redemption_code_router.ts`, `languages/zh_CN.json`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 2 个文件\n- 后端面板 (panel/) 1 个文件\n- 其他 1 个文件\n\n---",
-  "last_updated": "2026-03-16",
+  "version": "v4.6.1",
+  "release_notes": "# MCSManager Special Edition v4.6.1\n\n## 📋 更新概要\n> 本次更新主要修复并优化了兑换码套餐的验证逻辑，提升了系统的稳定性和准确性。\n\n## 🐛 问题修复\n- **兑换码套餐验证逻辑修复与优化** [b96be28]\n  - 修复了兑换码套餐验证逻辑中存在的潜在问题，并对其进行了优化，确保兑换过程更加准确和稳定。\n  - 涉及文件 `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/service/redemption_service.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 0 个文件\n- 后端面板 (panel/) 2 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
+  "last_updated": "2026-03-27",
   "history": [
+    {
+      "version": "v4.6.1",
+      "release_notes": "# MCSManager Special Edition v4.6.1\n\n## 📋 更新概要\n> 本次更新主要修复并优化了兑换码套餐的验证逻辑，提升了系统的稳定性和准确性。\n\n## 🐛 问题修复\n- **兑换码套餐验证逻辑修复与优化** [b96be28]\n  - 修复了兑换码套餐验证逻辑中存在的潜在问题，并对其进行了优化，确保兑换过程更加准确和稳定。\n  - 涉及文件 `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/service/redemption_service.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 0 个文件\n- 后端面板 (panel/) 2 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
+      "date": "2026-03-27"
+    },
     {
       "version": "v4.5.12",
       "release_notes": "# MCSManager Special Edition v4.5.12\n\n## 📋 更新概要\n> 本次更新主要修复了实例续费时的验证逻辑问题，并解决了文件上传在暂停或终止时可能出现的异常情况。\n\n## 🐛 问题修复\n- **修复续费实例验证与文件上传异常** [ea0ed88]\n  - 修复了在实例续费过程中，可能出现的验证逻辑不完善问题，确保续费流程的正确性。同时，解决了文件上传在被暂停或终止时，可能导致程序异常退出的问题，提升了文件管理功能的稳定性。\n  - 涉及文件 `frontend/src/components/fc/RenewalDialog.vue`, `frontend/src/services/uploadService.ts`, `panel/src/app/routers/redemption_code_router.ts`, `languages/zh_CN.json`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 2 个文件\n- 后端面板 (panel/) 1 个文件\n- 其他 1 个文件\n\n---",
