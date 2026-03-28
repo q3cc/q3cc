@@ -1,8 +1,13 @@
 {
-  "version": "v4.6.1",
-  "release_notes": "# MCSManager Special Edition v4.6.1\n\n## 📋 更新概要\n> 本次更新主要修复并优化了兑换码套餐的验证逻辑，提升了系统的稳定性和准确性。\n\n## 🐛 问题修复\n- **兑换码套餐验证逻辑修复与优化** [b96be28]\n  - 修复了兑换码套餐验证逻辑中存在的潜在问题，并对其进行了优化，确保兑换过程更加准确和稳定。\n  - 涉及文件 `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/service/redemption_service.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 0 个文件\n- 后端面板 (panel/) 2 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
-  "last_updated": "2026-03-27",
+  "version": "v4.6.2",
+  "release_notes": "# MCSManager Special Edition v4.6.2\n\n## 📋 更新概要\n> 本次更新主要为实例管理引入新功能，现在实例详情页可以显示其所属的套餐信息，提升了管理透明度和便利性。\n\n## ✨ 新功能\n- **实例显示所属套餐功能** [8593b9d]\n  - 实例现在可以显示其所属的套餐信息（如兑换码套餐），方便用户和管理员更清晰地了解实例的来源和配置。此功能增强了实例管理的可追溯性和信息完整性。\n  - 涉及文件 `frontend/src/types/user.ts`, `frontend/src/widgets/instance/BaseInfo.vue`, `frontend/src/widgets/instance/dialogs/InstanceDetail.vue`, `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/routers/user_overview_router.ts`, `panel/src/app/service/instance_service.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 3 个文件\n- 后端面板 (panel/) 3 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
+  "last_updated": "2026-03-28",
   "history": [
+    {
+      "version": "v4.6.2",
+      "release_notes": "# MCSManager Special Edition v4.6.2\n\n## 📋 更新概要\n> 本次更新主要为实例管理引入新功能，现在实例详情页可以显示其所属的套餐信息，提升了管理透明度和便利性。\n\n## ✨ 新功能\n- **实例显示所属套餐功能** [8593b9d]\n  - 实例现在可以显示其所属的套餐信息（如兑换码套餐），方便用户和管理员更清晰地了解实例的来源和配置。此功能增强了实例管理的可追溯性和信息完整性。\n  - 涉及文件 `frontend/src/types/user.ts`, `frontend/src/widgets/instance/BaseInfo.vue`, `frontend/src/widgets/instance/dialogs/InstanceDetail.vue`, `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/routers/user_overview_router.ts`, `panel/src/app/service/instance_service.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 3 个文件\n- 后端面板 (panel/) 3 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
+      "date": "2026-03-28"
+    },
     {
       "version": "v4.6.1",
       "release_notes": "# MCSManager Special Edition v4.6.1\n\n## 📋 更新概要\n> 本次更新主要修复并优化了兑换码套餐的验证逻辑，提升了系统的稳定性和准确性。\n\n## 🐛 问题修复\n- **兑换码套餐验证逻辑修复与优化** [b96be28]\n  - 修复了兑换码套餐验证逻辑中存在的潜在问题，并对其进行了优化，确保兑换过程更加准确和稳定。\n  - 涉及文件 `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/service/redemption_service.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 0 个文件\n- 后端面板 (panel/) 2 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件\n\n---",
