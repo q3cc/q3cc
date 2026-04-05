@@ -1,8 +1,13 @@
 {
-  "version": "v4.6.2",
-  "release_notes": "# MCSManager Special Edition v4.6.2\n\n## 📋 更新概要\n> 本次更新主要为实例管理引入新功能，现在实例详情页可以显示其所属的套餐信息，提升了管理透明度和便利性。\n\n## ✨ 新功能\n- **实例显示所属套餐功能** [8593b9d]\n  - 实例现在可以显示其所属的套餐信息（如兑换码套餐），方便用户和管理员更清晰地了解实例的来源和配置。此功能增强了实例管理的可追溯性和信息完整性。\n  - 涉及文件 `frontend/src/types/user.ts`, `frontend/src/widgets/instance/BaseInfo.vue`, `frontend/src/widgets/instance/dialogs/InstanceDetail.vue`, `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/routers/user_overview_router.ts`, `panel/src/app/service/instance_service.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 3 个文件\n- 后端面板 (panel/) 3 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
-  "last_updated": "2026-03-28",
+  "version": "v4.6.3",
+  "release_notes": "# MCSManager Special Edition v4.6.3\n\n## 📋 更新概要\n> 本次更新主要优化了移动端终端的触摸交互体验，并增强了复制功能，提升了移动设备上的远程管理效率。\n\n## 🔧 优化改进\n- **优化移动端终端触摸交互与复制功能** [1377933]\n  - 改进了在移动设备上终端界面的触摸响应和交互逻辑，使操作更加流畅。同时，增强了终端内容的复制功能，方便用户快速获取信息。\n  - 涉及文件 `frontend/src/components/TerminalCore.vue`, `frontend/src/hooks/useTerminal.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 3 个文件\n- 守护进程 (daemon/) 1 个文件\n- 其他 1 个文件\n\n---",
+  "last_updated": "2026-04-05",
   "history": [
+    {
+      "version": "v4.6.3",
+      "release_notes": "# MCSManager Special Edition v4.6.3\n\n## 📋 更新概要\n> 本次更新主要优化了移动端终端的触摸交互体验，并增强了复制功能，提升了移动设备上的远程管理效率。\n\n## 🔧 优化改进\n- **优化移动端终端触摸交互与复制功能** [1377933]\n  - 改进了在移动设备上终端界面的触摸响应和交互逻辑，使操作更加流畅。同时，增强了终端内容的复制功能，方便用户快速获取信息。\n  - 涉及文件 `frontend/src/components/TerminalCore.vue`, `frontend/src/hooks/useTerminal.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 3 个文件\n- 守护进程 (daemon/) 1 个文件\n- 其他 1 个文件\n\n---",
+      "date": "2026-04-05"
+    },
     {
       "version": "v4.6.2",
       "release_notes": "# MCSManager Special Edition v4.6.2\n\n## 📋 更新概要\n> 本次更新主要为实例管理引入新功能，现在实例详情页可以显示其所属的套餐信息，提升了管理透明度和便利性。\n\n## ✨ 新功能\n- **实例显示所属套餐功能** [8593b9d]\n  - 实例现在可以显示其所属的套餐信息（如兑换码套餐），方便用户和管理员更清晰地了解实例的来源和配置。此功能增强了实例管理的可追溯性和信息完整性。\n  - 涉及文件 `frontend/src/types/user.ts`, `frontend/src/widgets/instance/BaseInfo.vue`, `frontend/src/widgets/instance/dialogs/InstanceDetail.vue`, `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/routers/user_overview_router.ts`, `panel/src/app/service/instance_service.ts`\n\n## 📁 变更文件统计\n- 前端 (frontend/) 3 个文件\n- 后端面板 (panel/) 3 个文件\n- 守护进程 (daemon/) 0 个文件\n- 其他 0 个文件",
